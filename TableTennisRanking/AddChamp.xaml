@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="TableTennisRanking.AddChamp"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="402" d:DesignWidth="575">
+    <Grid>
+        <Label Content="Add Championship" HorizontalAlignment="Left" Margin="256,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="36,49,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="nameTextbox" HorizontalAlignment="Left" Height="23" Margin="121,52,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="425"/>
+        <Button x:Name ="createChampButton" Content="Create" HorizontalAlignment="Left" Margin="256,134,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</UserControl>

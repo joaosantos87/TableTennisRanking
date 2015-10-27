@@ -1,0 +1,60 @@
+http://www.teamusa.org/USA-Table-Tennis/Ratings/How-Does-the-USATT-Rating-System-work
+
+3-0 -> all points
+3-1 -> 0.75 of points
+3-2 -> 0.5 of points
+
+Player
+Id
+Name
+Birth Date
+Club
+Photo
+Gender
+
+
+Games
+PlayerA
+PlayerB
+SetsA
+SetsB
+WinnerId
+Date
+Division
+IdCalculation
+
+
+PointsBreakdown
+Id
+Date
+IdPlayer
+Points (+ ou -)
+
+
+Champs
+Id
+Name
+
+
+Calculations
+Id
+type
+weight
+
+Clubs
+Id
+Name
+
+
+PlayerDivisions
+Id
+Date
+IdPlayer
+IdDivision
+
+
+PlayerClubs
+Id
+Date
+IdPlayer
+IdClub

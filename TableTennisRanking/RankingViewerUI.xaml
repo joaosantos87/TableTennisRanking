@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="TableTennisRanking.RankingViewerUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="402" d:DesignWidth="575">
+    <Grid Margin="0,10,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="243*"/>
+            <ColumnDefinition Width="220*"/>
+            <ColumnDefinition Width="112*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid Name="grid"  HorizontalAlignment="Left" Grid.ColumnSpan="3" Width="565" Margin="0,28,0,0"/>
+        <TextBox Name="StartDateTextbox" HorizontalAlignment="Left" Height="23" Margin="70,0,0,0" TextWrapping="Wrap" Text="2000-01-01" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="FinalDateTextbox" HorizontalAlignment="Left" Height="23" Margin="53,0,0,0" TextWrapping="Wrap" Text="2015-12-31" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <Button Content="Filter" Grid.Column="2" HorizontalAlignment="Left" Margin="10,1,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click"/>
+
+    </Grid>
+</UserControl>

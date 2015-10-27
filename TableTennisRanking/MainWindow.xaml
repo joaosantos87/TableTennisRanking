@@ -1,0 +1,16 @@
+﻿<Window x:Class="TableTennisRanking.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid Width="800" Height="600">
+        <Label Content="Table Tennis Ranking&#xD;&#xA;" HorizontalAlignment="Left" Height="27" Margin="300,-500,0,0" VerticalAlignment="Stretch"/>
+        <Button Name ="playerButton" Content="Players" HorizontalAlignment="Left" Margin="85,73,0,0" Width="76" Click="Button_Click" VerticalAlignment="Top" VerticalContentAlignment="Top"/>
+        <Button Content="Clubs" HorizontalAlignment="Left" Margin="206,73,0,0" Width="76" Click="Button_Click_1" VerticalAlignment="Top" VerticalContentAlignment="Top"/>
+        <Button Content="Championships" HorizontalAlignment="Left" Margin="334,73,0,0" Width="93" Click="Button_Click_2" VerticalAlignment="Top" VerticalContentAlignment="Top"/>
+        <Button Content="Games" HorizontalAlignment="Left" Margin="472,73,0,0" Width="93" Click="Button_Click_3" VerticalAlignment="Top" VerticalContentAlignment="Top"/>
+        <GroupBox Name ="contentGroupbox" Header="" HorizontalAlignment="Left" Margin="0,114,0,0" VerticalAlignment="Top">
+            <Grid Name ="grid1" HorizontalAlignment="Left" Margin="4,0,0,-2" VerticalAlignment="Top"/>
+        </GroupBox>
+        <Button Content="Ranking" HorizontalAlignment="Left" Margin="618,73,0,0" Width="92" Click="Button_Click_4" VerticalAlignment="Top" VerticalContentAlignment="Top"/>
+    </Grid>
+</Window>
